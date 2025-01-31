@@ -22,7 +22,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        primaty: '#E76F51',
+                        Primary: '#179800',
                         secoundry: '#EFEBE3',
                         blk: '#111111'
                     },
@@ -37,16 +37,58 @@
 
 <body class="font-Sora">
     <!--==================== Header Part Start ===================-->
-     <header>
-        
-     </header>
-     <!--==================== Header Part End ===================-->
-     <!--==================== Main Part Start ===================-->
-     <main></main>
-     <!--==================== Main Part End ===================-->
-     <!--==================== Footer Part Start ===================-->
-     <footer></footer>
-     <!--==================== Footer Part End ===================-->
+    <header>
+        <!--==================== Navber Part Start ===================-->
+        <nav class="container mx-auto pt-3 lg:px-10">
+            <div class="navbar bg-base-100 justify-between">
+                <div class="">
+                    
+                    <a class="max-w-36">
+                        <img src="photo/logo-header.png" alt="header-icon">
+                    </a>
+                </div>
+                <div class=" hidden lg:flex ml-14">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-xl border-solid rounded-none border-b-2 border-[#FFFFFF] hover:border-Primary font-normal text-blk hover:text-Primary hover:bg-[#FFFFFF]">Product</a></li>
+                        <li><a class="text-xl border-solid rounded-none border-b-2 border-[#FFFFFF] hover:border-Primary font-normal text-blk hover:text-Primary hover:bg-[#FFFFFF]">Services</a></li>
+                        <li><a class="text-xl border-solid rounded-none border-b-2 border-[#FFFFFF] hover:border-Primary font-normal text-blk hover:text-Primary hover:bg-[#FFFFFF]">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="hidden md:block lg:block">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass text-2xl mr-6"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-plus text-2xl mr-6"></i></a>
+                    <a class="btn px-7 py-3 text-xl font-normal text-blk border-solid border-2 border-Primary bg-[#FFFFFF] hover:bg-Primary hover:text-[#FFFFFF] mr-3">Login</a>
+                    <a class="btn px-7 py-3 bg-Primary text-xl font-normal text-[#FFFFFF]  border-solid border-2 border-Primary hover:bg-white hover:text-Primary hover:border-Primary">Register</a>
+                </div>
+
+                <div class="dropdown  dropdown-end sm:hidden hover:bg-Primary hover:rounded-lg">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow">
+                        <li><a class="text-xl border-solid rounded-none border-b-2 border-[#FFFFFF] hover:border-Primary font-normal text-blk hover:text-Primary hover:bg-[#FFFFFF]">Product</a></li>
+                        <li><a class="text-xl border-solid rounded-none border-b-2 border-[#FFFFFF] hover:border-Primary font-normal text-blk hover:text-Primary hover:bg-[#FFFFFF]">Services</a></li>
+                        <li><a class="text-xl border-solid rounded-none border-b-2 border-[#FFFFFF] hover:border-Primary font-normal text-blk hover:text-Primary hover:bg-[#FFFFFF]">Contact us</a></li>
+                    </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--==================== Navber Part End ===================-->
+        <!--==================== Header Part End ===================-->
+    </header>
+    <!--==================== Header Part End ===================-->
+    <!--==================== Main Part Start ===================-->
+    <main></main>
+    <!--==================== Main Part End ===================-->
+    <!--==================== Footer Part Start ===================-->
+    <footer></footer>
+    <!--==================== Footer Part End ===================-->
 </body>
 
 </html>
